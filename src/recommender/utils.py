@@ -28,14 +28,14 @@ def load_movie_data(limit=10):
             except:
                 _id = None
 
-            release_data = validate_date_str(row.get('release_data'))
+            release_date = validate_date_str(row.get('release_date'))
 
 
             data = {
                 "id": _id,
                 "title": row.get("title"),
                 "overview": row.get("overview"),
-                "release_date": release_data
+                "release_date": release_date
             }
 
             dataset.append(data)
