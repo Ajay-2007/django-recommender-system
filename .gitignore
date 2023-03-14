@@ -9,6 +9,9 @@ __pycache__/
 # Custom File Ignore
 archive.zip
 movies_dataset/
+src/data/movies_metadata.csv
+
+
 # Distribution / packaging
 .Python
 build/
