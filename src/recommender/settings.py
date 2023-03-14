@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     # internal apps
     "movies",
     "profiles",
+    "ratings",
 ]
 
 MIDDLEWARE = [
