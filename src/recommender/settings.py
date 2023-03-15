@@ -24,7 +24,7 @@ DATA_DIR = BASE_DIR / "data"
 SECRET_KEY = config('SECRET_KEY', default=None)
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = config('DJANGO_DEBUG', default=0, cast=bool) # True/False
+DEBUG = config('DJANGO_DEBUG', default=1, cast=bool) # True/False
 
 ALLOWED_HOSTS = []
 
