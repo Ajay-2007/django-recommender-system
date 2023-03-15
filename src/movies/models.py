@@ -42,6 +42,10 @@ class Movie(models.Model):
     rating_avg = models.DecimalField(decimal_places=2, max_digits=5, blank=True, null=True) # 5.00, 0.00
     objects = MovieManager()
 
+    def get_absolute_url(self):
+        return f"/movies/{self.pk}/"
+
+
     def __str__(self):
         if not self.release_date:
             return f"{self.title}"
