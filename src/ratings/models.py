@@ -10,7 +10,6 @@ from django.utils import timezone
 
 
 
-
 User = settings.AUTH_USER_MODEL # 'auth.user'
 
 # user_obj = User.objects.first()

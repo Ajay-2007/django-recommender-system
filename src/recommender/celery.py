@@ -21,6 +21,6 @@ app.conf.beat_schedule = {
         # 'task': 'movie.tasks.task_calculate_movie_ratings', # if we haven't given a name
         'task': 'task_calculate_movie_ratings',
         'schedule': 60 * 30, # 30 min, schedule in seconds
-        'kwargs': {"count": 20_000}
+        # 'kwargs': {"count": 20_000}
     }
 }
