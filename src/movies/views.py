@@ -12,6 +12,7 @@ class MovieListView(generic.ListView):
 
 
 
+
 movie_list_view = MovieListView.as_view()
 
 
