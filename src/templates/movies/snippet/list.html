@@ -1,0 +1,5 @@
+{% for instance in object_list %}
+<div class="col">
+    {% include 'movies/snippet/card.html' with object=instance %}
+</div>
+{% endfor %}
